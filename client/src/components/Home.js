@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes, } from "styled-components";
+import styled from "styled-components";
 import { Image, } from "semantic-ui-react";
 import { StyledHeader, } from "../styles/shared";
 
@@ -10,10 +10,10 @@ const Home = () => (
     </StyledHeader>
     <br />
     <br />
-    <StyledImage      
-      size='medium' 
+    <StyledImage
+      size='medium'
       circular
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEMqIekyXIictVeZ8JUSW-d5RmsxXHdfA6WVPdh55g474N5y496A" 
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEMqIekyXIictVeZ8JUSW-d5RmsxXHdfA6WVPdh55g474N5y496A"
     />
   </div>
 );

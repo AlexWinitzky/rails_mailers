@@ -11,10 +11,13 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'sendgrid-ruby'
+gem 'figaro'
 
 group :development, :test do
   # Call 'binding.pry' anywhere in the code to stop execution and get a debugger console
   gem "pry-rails"
+  gem 'letter_opener'
 end
 
 group :development do
