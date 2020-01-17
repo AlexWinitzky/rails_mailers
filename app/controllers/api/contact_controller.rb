@@ -9,7 +9,6 @@ class Api::ContactController < ApplicationController
   #   ).contact_email.deliver_now
   # end
   def contact
-    binding.pry
     ContactMailer.with(
       name: params[:name],
       email: params[:email],
