@@ -15,10 +15,10 @@ const Contact = () => {
     axios.get(`/api/contact?name=${name}&email=${email}&subject=${subject}&message=${message}`)
       .then(res => {
         console.log('email sent')
-        // setName('')
-        // setEmail('')
-        // setSubject('')
-        // setMessage('')
+        setName('')
+        setEmail('')
+        setSubject('')
+        setMessage('')
       })
   }
 

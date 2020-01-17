@@ -6,14 +6,14 @@ import { StyledHeader, } from "../styles/shared";
 const Home = () => (
   <div style={{ display: "flex", flexDirection: "column", alignItems: "center", }}>
     <StyledHeader as="h1" centered title>
-      Hugh Peppercorn
+      H.R. Pennypacker
     </StyledHeader>
     <br />
     <br />
     <StyledImage
-      size='medium'
+      size='huge'
       circular
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEMqIekyXIictVeZ8JUSW-d5RmsxXHdfA6WVPdh55g474N5y496A"
+      src="https://images-na.ssl-images-amazon.com/images/I/91xfNhx%2Bt7L._AC_SL1500_.jpg"
     />
   </div>
 );
