@@ -6,7 +6,7 @@ import { StyledHeader, } from "../styles/shared";
 const Home = () => (
   <div style={{ display: "flex", flexDirection: "column", alignItems: "center", }}>
     <StyledHeader as="h1" centered title>
-      H.R. Pennypacker
+      H.E. Pennypacker
     </StyledHeader>
     <br />
     <br />
